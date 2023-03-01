@@ -1,0 +1,88 @@
+[
+    {
+      "question": "What value of 'x' makes the equation below true? -15 + (-5x) = 0 ",
+      "choice1": " 5",
+      "choice2": " 3",
+      "choice3": "-3",
+      "choice4": "-5",
+      "answer": 3
+    },
+    {
+      "question":
+        "Two angles of a triangle measure 35 degrees and 65 degrees. What is the measure of the third angle of the triangle?",
+      "choice1": "100",
+      "choice2": " 80",
+      "choice3": "125",
+      "choice4": "135",
+      "answer": 2
+    },
+    {
+      "question": "The sum of any three angles of a rectangle is : ",
+      "choice1": "180",
+      "choice2": "270",
+      "choice3": "360",
+      "choice4": "120",
+      "answer": 2
+    },
+    {
+      "question": "Ratio of 500ml to 2 litres is: ",
+      "choice1": "1/4",
+      "choice2": "1/2",
+      "choice3": "1/8",
+      "choice4": "1/5",
+      "answer": 1
+    },
+    {
+      "question": "The place value of 3 in 1.234: ",
+      "choice1": "3/10",
+      "choice2": "3",
+      "choice3": "3/100",
+      "choice4": "3/1000",
+      "answer": 3
+    },
+    {
+      "question": "158=___ + 106. What number will come in the blank to make the number sentence correct? ",
+      "choice1": " 52",
+      "choice2": "152",
+      "choice3": "158",
+      "choice4": "264",
+      "answer": 1
+    },
+    {
+      "question": "Gaurav has 918 marbles. He wants to make packets of marbles, with nine marbles in each pack. How many packs will he be able to make? ",
+      "choice1": "15",
+      "choice2": "45",
+      "choice3": "78",
+      "choice4": "105",
+      "answer": 4
+    },
+    {
+      "question": "A teacher brought some toffees to her class. After giving three toffees each to 15 students who had completed their assignments, she has 60 toffees left with her. How many toffees did she bring to the class? ",
+      "choice1": "12",
+      "choice2": "102",
+      "choice3": "120",
+      "choice4": "1062",
+      "answer": 2
+    },
+    {
+      "question": "John has stamps from different countries. 1/3rd of them are India stamps. if he has 36 Indian stamps, how many stamps does he have in total? ",
+      "choice1": "12",
+      "choice2": "36",
+      "choice3": "48",
+      "choice4": "108",
+      "answer": 4
+    },
+    {
+      "question": "Which of the following is a multiple of 16? ",
+      "choice1": "27",
+      "choice2": "8",
+      "choice3": "64",
+      "choice4": "88",
+      "answer": 3
+    }
+    
+
+    
+
+    
+  ]

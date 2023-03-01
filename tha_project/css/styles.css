@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Short Stack", cursive;
+}
+
+.navbar {
+    background-color: lightcoral;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#logo {
+    color: black;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+/* apostash metaxi twn links*/
+.navbar__item {
+    height: 80px;
+}
+
+.navbar__links {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 3rem;
+    height: 100%;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: lightcyan;
+    color: black;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.navbar__links:hover {
+    color: black;
+    transition: white;
+    background-color: white;
+}
+
+@media screen and (max-width: 960px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+
+    .navbar__menu {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 0;
+        transition: all 0.5s ease;
+        height: 50vh;
+        z-index: -1;
+    }
+
+    .navbar__menu.active {
+        background: lightcoral;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        height: 60vh;
+        font-size: 1.6rem;
+    }
+
+    #navbar__logo {
+        padding-left: 25px;
+    }
+
+    .navbar__toggle .bar {
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background: black;
+    }
+    .navbar__item {
+        width: 100%;
+    }
+
+    .navbar__links {
+        text-align: center;
+        padding: 1.5rem;
+        width: 100%;
+        display: table;
+    }
+
+    #mobile-menu {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+    }
+
+    .navbar__btn {
+        padding-bottom: 0.3rem;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        margin: 0;
+    }
+
+    .navbar__toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+/*----------- HOME-----------*/
+
+.home__container {
+    position: relative;
+    height: 100vh;
+    background-image: url(../photos/home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home_content {
+    padding-top: 20%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    text-shadow: 2px 2px 4px grey;
+}
+
+p {
+    font-size: 18px;
+    text-shadow: 2px 2px 4px grey;
+}
+
+.home_button {
+    text-decoration: none;
+    background-color: lightcoral;
+    color: black;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+/*------------footer ------------*/
+
+.footer {
+    /* position:fixed; */
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    color: white;
+}
+
+.footer .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+    padding: 0 2px;
+    color: white;
+}
+
+.left .content .social a span {
+    height: 40px;
+    width: 40px;
+    background: lightcoral;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.left .content .social a span:hover {
+    background: #111;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+.email input {
+    padding: 5px 8px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.btn button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn button:hover {
+    background-color: lightcoral;
+}

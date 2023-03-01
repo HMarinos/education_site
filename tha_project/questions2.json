@@ -1,0 +1,88 @@
+[
+    {
+      "question": "Ankara is the capital of which country? ",
+      "choice1": " Uruguai",
+      "choice2": " Uganda",
+      "choice3": " Turkey",
+      "choice4": " Vanuatu",
+      "answer": 3
+    },
+    {
+      "question":
+        "Reykjavik is the capital of which country?",
+      "choice1": " Jamaica",
+      "choice2": " Jordan",
+      "choice3": " Iceland",
+      "choice4": " Ireland",
+      "answer": 3
+    },
+    {
+      "question": "What is the capital of Finland? ",
+      "choice1": "Conakry",
+      "choice2": "Prague",
+      "choice3": "Helsinki",
+      "choice4": "None of the above",
+      "answer": 3
+    },
+    {
+      "question": "What is the capital of china?",
+      "choice1": " Santiago",
+      "choice2": " Beijing",
+      "choice3": " Havana",
+      "choice4": " Doha",
+      "answer": 2
+    },
+    {
+      "question": "What is the capital of Cameroon? ",
+      "choice1": "Bujumbura",
+      "choice2": "Yaounde",
+      "choice3": "Gaborone",
+      "choice4": "Libson",
+      "answer": 2
+    },
+    {
+      "question": "What is the capital of Canada ? ",
+      "choice1": " Ottawa",
+      "choice2": " Regina",
+      "choice3": " Victoria",
+      "choice4": " None of the above",
+      "answer": 1
+    },
+    {
+      "question": "The Capital of Tanzania is  ",
+      "choice1": " Nairobi",
+      "choice2": " Lusaka",
+      "choice3": " Kampala",
+      "choice4": " Dar- es- Salaam",
+      "answer": 4
+    },
+    {
+      "question": "What is the capital of Bangladesh ? ",
+      "choice1": " Dhaka",
+      "choice2": " Khulna",
+      "choice3": " Chittagong",
+      "choice4": " Sylhet",
+      "answer": 1
+    },
+    {
+      "question": "What is the capital of colombia?",
+      "choice1": " Beijing",
+      "choice2": " Dacota",
+      "choice3": " Bogota",
+      "choice4": " Moroni",
+      "answer": 3
+    },
+    {
+      "question": "What is the capital of Ethiopia?",
+      "choice1": "Addis Ababa",
+      "choice2": "Santo Domingo",
+      "choice3": "Port-au-Prince",
+      "choice4": "New Delhi",
+      "answer": 1
+    }
+    
+
+    
+
+    
+  ]

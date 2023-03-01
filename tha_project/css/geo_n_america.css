@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Short Stack", cursive;
+}
+ul {
+    list-style: none;
+}
+
+.asia_container {
+    background-image: url(../photos/n_america.jpg);
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-attachment: fixed;
+    background: cover;
+    height: 100vh;
+}
+
+.asia_content {
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.asia_content h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: solid;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.asia_content li {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
